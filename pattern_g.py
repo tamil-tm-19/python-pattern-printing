@@ -1,0 +1,17 @@
+""" 
+
+*****
+****
+***
+**
+* 
+    
+"""
+
+
+n = int(input())
+
+for i in range(n+1):
+    for _ in range(n-i):
+        print("*", end=" ")
+    print()
